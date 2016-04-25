@@ -2,7 +2,7 @@
 /**
  * Cette page php constitu le controleur des actions qui seront mennées pour la gestion de la connexion à l'intranet du laboratoire GSB.
  * @package Default
- * @author Remy DEBERTONN <remy.debertonne@gmail.com>
+ * @author Remy DEBERTONNE <remy.debertonne@gmail.com>
  */
 if(!isset($_REQUEST['action'])){
 	$_REQUEST['action'] = 'demandeConnexion';
