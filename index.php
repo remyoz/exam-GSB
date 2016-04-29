@@ -1,4 +1,5 @@
 <?php
+//test
 session_start();
 require_once("include/fct.inc.php");
 require_once ("include/class.pdogsb.inc.php");
