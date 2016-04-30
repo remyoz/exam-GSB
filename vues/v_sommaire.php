@@ -18,7 +18,8 @@
                                 <h2><strong><?php echo $_SESSION['prenom']."  ".$_SESSION['nom']  ?></strong></h2>
                                 <h3><strong><?php echo $_SESSION['profil'] ?></strong><h3>
 			</li>
-        <?php if ($_SESSION['profil'] == "Visiteur Médicale") { ?> 
+        <?php// if ($_SESSION['profil'] == "Visiteur Médicale") { ?> 
+                        <?php if ($_SESSION['profil'] == "Visiteur") { ?> 
            <li class="smenu">
               <a href="index.php?uc=acceuil&action=vueAcceuil" title="Accueil">Acceuil</a>
            </li>             
