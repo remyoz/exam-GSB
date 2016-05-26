@@ -15,16 +15,8 @@
  * @link       http://www.php.net/manual/fr/book.pdo.php
  */
 
-/**
-class PdoGsb{   		
-      	private static $serveur='mysql:host=localhost' ;
-      	private static $bdd='dbname=gsb_fraistest' ;   		
-      	private static $user='gsbfrais' ;    		
-      	private static $mdp='gsbfrais' ;	
-		    private static $monPdo;
-		    private static $monPdoGsb=null;
- * */
 
+  //Pour acceeder a la base de donnees live
 class PdoGsb{   		
       	private static $serveur='mysql:host=mysql6.000webhost.com' ;
       	private static $bdd='dbname=a9045590_test' ;   		
@@ -32,6 +24,18 @@ class PdoGsb{
       	private static $mdp='A123456' ;	
 		    private static $monPdo;
 		    private static $monPdoGsb=null;
+ 
+// pour acceder a la base de donnees test
+/**
+class PdoGsb{   		
+      	private static $serveur='mysql:host=mysql7.000webhost.com' ;
+      	private static $bdd='dbname=a6740131_test' ;   		
+      	private static $user='a6740131_test' ;    		
+      	private static $mdp='A123456' ;	
+		    private static $monPdo;
+		    private static $monPdoGsb=null;
+ * /
+
  
 /**
  * Constructeur privé, crée l'instance de PDO qui sera sollicitée

@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp2/www/gsbMVCFinale/public_html/include/fct.inc.php</file>
-            <file>file:/C:/wamp2/www/gsbMVCFinale/public_html/include/class.pdogsb.inc.php</file>
-            <file>file:/C:/wamp2/www/gsbMVCFinale/public_html/controleurs/c_acceuil.php</file>
-            <file>file:/C:/wamp2/www/gsbMVCFinale/public_html/controleurs/c_connexion.php</file>
-            <file>file:/C:/wamp2/www/gsbMVCFinale/public_html/index.php</file>
+            <file>file:/C:/wamp2/www/ancien/gsbMVCFinale/public_html/vues/v_sommaire.php</file>
+            <file>file:/C:/wamp2/www/ancien/gsbMVCFinale/public_html/include/class.pdogsb.inc.php</file>
+            <file>file:/C:/wamp2/www/ancien/gsbMVCFinale/public_html/index.php</file>
         </group>
     </open-files>
 </project-private>
